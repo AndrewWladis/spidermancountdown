@@ -1,5 +1,5 @@
 @font-face {
-    src: url(Spiderman-Homecoming.otf);
+    src: url(kungfumaster.ttf);
     font-family: spidermanFont;
 }
 
@@ -11,7 +11,7 @@
 
 body {
     font-family: spidermanFont;
-    background: url('nowayhome.GIF') no-repeat center center fixed;
+    background: url('doc.GIF') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -23,11 +23,11 @@ h2 {
 }
 
 h3 {
-    color: white;
+    color: rgb(202, 199, 199);
 }
 
 h5 {
-    color: rgb(255, 255, 255);
+    color: rgb(202, 199, 199);
 }
 
 .coming-soon {
@@ -50,8 +50,13 @@ h5 {
     padding-top: 4%;
 }
 
+.text {
+    color: rgb(202, 199, 199);
+}
+
 .day, .hour, .minute, .second {
     font-size: 3rem;
+    color: rgb(202, 199, 199);
 }
 
 #spidermannowayhome {
